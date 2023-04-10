@@ -1,0 +1,18 @@
+<h1>XBank</h1>
+<p>Always with you</p>
+
+<p>
+    Welcome <b>Souza, Pedro</b>
+</p>
+
+<h3>Balance: {{getBalance}} </h3>
+
+<p>
+    <input type="string" #withdrawMoney>
+    <button (click)="setWithdrawMoney(withdrawMoney.value)">Withdraw</button>
+</p>
+
+<p>
+    <input type="string" #depositMoney>
+    <button (click)="setDepositMoney(depositMoney.value)">Deposit</button>
+</p>
